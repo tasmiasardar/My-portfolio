@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="main.css">
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+<!--HOME SECTION DESIGN-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi there!</h3>
+                <h1> My name is Tasmia Sardar</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>A focused front-end developer building the front end of websites and web applications that lead to the success of the overall product.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="img.png" alt="profile">
+            </div>
+        </section>
+<!--ABOUT SECTION DESIGN-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="img.png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>I'm a frontend developer dedicated to crafting engaging and responsive web experiences. With a strong foundation in HTML, CSS, and JavaScript, and hands-on experience with frameworks like React and Tailwind, I specialize in turning design ideas into functional, interactive websites </p>
+        <p>I possess strong problem solving skills, good communication skills and a keen eye for detail. I'm a good team
+            player and always strive to help my team succeed.</p>
+</section>
+<!--SERVICES SECTION DESIGN-->
+<section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Frontend Development</h3>
+            <p>Creating visually appealing and user-friendly website designs tailored to client needs. Ensuring websites are optimized for various devices and screen sizes, providing a seamless user experience across desktops, tablets, and smartphones. <span class="more-content">Writing clean, semantic HTML and CSS to build the structure and style of web pages. Implementing interactive elements and enhancing user experience with JavaScript and related libraries or frameworks (e.g., React, Tailwind). Designing intuitive user interfaces and user experiences that improve user satisfaction and engagement.</span></p>
+            <a href="javascript:void(0);" class="btn read-more">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class="fa-solid fa-file-lines"></i>
+            <h3>Technical Writing</h3>
+            <p>Creation of comprehensive user manuals, installation guides, and operation manuals tailored to your product or service.Development of technical specifications and requirement documents to support engineering and development teams. <span class="more-content">In-depth software documentation including features, functionalities, and troubleshooting tips.Preparation of technical reports, white papers, and research documents for internal and external stakeholders.Review and refinement of existing technical documents to improve clarity, accuracy, and readability.</span></p>
+            <a href="javascript:void(0);" class="btn read-more">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class="fa-brands fa-instagram"></i>
+            <h3>Social Media Content Designer</h3>
+            <p>Development of engaging and tailored social media content, including graphics, videos.Comprehensive management of your social media accounts, including scheduling posts, interacting with followers, and monitoring engagement metrics.<span class="more-content">Dive in to see how I blend creativity with strategy to bring your social media presence to life.</span>.</span></p>
+            <a href="javascript:void(0);" class="btn read-more">Read More</a>
+        </div>
+    </div>
+</section>
+
+
+<!--PORTFOLIO SECTION DESIGN-->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="img1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Frontend Development</h4>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img2.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Technical Writing</h4>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img3.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Social Media content Designing</h4>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--CONTACT SECTION DESIGN-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+<!--FOOTER SECTION DESIGN-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    
+        
+</body>
+</html>
